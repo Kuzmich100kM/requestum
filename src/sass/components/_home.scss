@@ -1,0 +1,105 @@
+.home {
+    display: flex;
+    height: 100%;
+    padding: 0 25px;
+    background-color: $primary;
+    color: $secomdary;
+
+
+    .search-block {
+        padding: 30px 10px 0;
+        max-width: 300px;
+
+        border-top: 1px solid $secomdary;
+
+        input {
+            width: 260px;
+            height: 25px;
+            border-radius: 12px;
+            padding: 0 10px;
+        }
+
+        .history {
+            margin-top: 40px;
+            color: $light;
+
+            .title {
+                font-size: 1.25em;
+            }
+
+            .list {
+                padding: 10px 0;
+
+                & div {
+                    padding: 5px 0;
+                }
+            }
+        }
+
+    }
+
+    .results-block {
+        width: calc(100vw - 300px);
+        height: 100%;
+        padding: 10px;
+        border-top: 1px solid $secomdary;
+
+        .list {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .empty {
+            padding: 25px 10px 10px;
+            font-size: 1.25em;
+        }
+
+        .name {
+            font-size: 1.25em;
+            font-weight: 600;
+        }
+
+        .results-one {
+            display: block;
+            background-color: $light;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+
+        div {
+            padding: 5px 0;
+        }
+
+        a {
+            display: inherit;
+            color: $dark;
+            text-decoration: none;
+        }
+    }
+}
+
+@include media($sm, "portrait") {
+    .home {
+        display: block;
+
+        .search-block {
+            padding: 30px 10px 0;
+            max-width: 100%;
+            width: 100%;
+
+            input {
+                width: inherit;
+            }
+
+        }
+
+        .results-block {
+            width: inherit;
+            margin-top: 15px;
+            padding: 20px 0;
+
+        }
+
+    }
+}

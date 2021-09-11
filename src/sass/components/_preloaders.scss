@@ -1,0 +1,13 @@
+.preloaderWrap {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    margin-right: 0;
+    margin-top: 32px;
+    margin-left: calc(50% - 300px);
+    z-index: 1;
+
+    @include media($sm, "portrait") {
+        margin-left: calc(50% - 65px);
+    }
+}
