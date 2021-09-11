@@ -19,7 +19,7 @@ export default function SearchInput() {
 			timeout = setTimeout(() => {
 				timeout = null
 				func.apply(context, args)
-			}, 500)
+			}, 1000)
 		}
 	}
 
