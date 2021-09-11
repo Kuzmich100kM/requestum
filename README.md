@@ -1,4 +1,4 @@
-# Github search app (teast task)
+# Github search app (test task)
 
 ![](src/assets/img/scr-requestum.png "requestum main page")
 
