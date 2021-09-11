@@ -1,5 +1,5 @@
 import React from "react"
-import { Router } from "react-router-dom"
+import { HashRouter as Router } from "react-router-dom"
 import AllRoutes from "./routes"
 import Header from "./components/Header"
 import history from "./utils/history"
