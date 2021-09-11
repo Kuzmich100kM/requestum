@@ -7,7 +7,7 @@ export default function AllRoutes() {
 	return (
 		<Switch>
 			<Route exact path="/" render={() => <Home />} />
-			<Route path="*" render={() => <Page404 />} />
+			{/* <Route path="*" render={() => <Page404 />} /> */}
 		</Switch>
 	)
 }
