@@ -1,6 +1,8 @@
-# Github search app (test task)
+# Requestum — github search app (test task)
 
 ![](src/assets/img/scr-requestum.png "requestum main page")
+
+## Demo page --> [Requestum on gh-pages](https://kuzmich100km.github.io/requestum/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
